@@ -10,7 +10,7 @@ export function Counter() {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold">Counteer</h1>
+      <h1 className="text-2xl font-bold">Counter</h1>
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       {/* <button
